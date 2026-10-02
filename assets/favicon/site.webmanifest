@@ -1,6 +1,6 @@
 {
-  "name": "SerakDepMS | Full Stack Developer & Software Engineer",
-  "short_name": "SerakDepMS",
+  "name": "SerakDepMS Studios — Comunidad Devs Oficial",
+  "short_name": "SerakDepMS Studios",
   "icons": [
     {
       "src": "assets/favicon/favicon-16x16.png",
@@ -28,7 +28,7 @@
       "type": "image/png"
     }
   ],
-  "theme_color": "#02943a",
+  "theme_color": "#0a0a0a",
   "background_color": "#0a0a0a",
   "display": "standalone"
 }

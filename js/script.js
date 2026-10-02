@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "Aprende. Colabora. Construye.",
         "Programming Communities.",
         "El código se convierte en comunidad.",
-        "Serakdep-MS-Devs-Official."
+        "SerakDepMS Studios."
     ];
     let phraseIndex = 0;
     let charIndex = 0;
