@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const phrases = [
         "Aprende. Colabora. Construye.",
         "Programming Communities.",
-        "El código se convierte en comunidad.",
+        "El código se vuelve comunidad.",
         "SerakDepMS Studios."
     ];
     let phraseIndex = 0;

@@ -5,7 +5,7 @@
     --primary-color: #00FF66;
     --primary-glow: rgba(0, 255, 102, 0.35);
     --text-light: #f8f9fa;
-    --text-muted: #9ca3af;
+    --text-muted: #b8bcc4;
     --border-color: rgba(255, 255, 255, 0.08);
     --font-main: 'Poppins', sans-serif;
     --font-code: 'Fira Code', monospace;
@@ -182,7 +182,11 @@ img, svg, video {
 
 
 .section { padding: 90px 0; }
-.hero-section { padding: 60px 0 80px; }
+.hero-section {
+    padding: 60px 0 80px;
+    overflow: hidden;
+    max-width: 100vw;
+}
 
 .section-header { margin-bottom: 45px; }
 .section-subtitle {
@@ -203,15 +207,17 @@ img, svg, video {
     margin-bottom: 12px;
 }
 .section-intro {
-    color: var(--text-muted);
+    color: #c5c9d0;
     max-width: 700px;
-    font-size: 0.95rem;
+    font-size: 0.98rem;
+    line-height: 1.6;
 }
 
 
 .hero-header {
     display: flex; align-items: center; gap: 25px;
     margin-bottom: 40px; flex-wrap: wrap;
+    max-width: 100%;
 }
 .logo-wrapper {
     width: 110px; height: 110px;
@@ -259,13 +265,16 @@ img, svg, video {
 
 .hero-title {
     font-family: var(--font-code);
-    font-size: clamp(1.6rem, 4vw, 2.6rem);
+    font-size: clamp(1.1rem, 3.2vw, 2.6rem);
     font-weight: 600;
-    line-height: 1.25;
+    line-height: 1.3;
     margin-bottom: 25px;
-    min-height: 1.3em;
+    min-height: 2.6em;
     color: var(--text-light);
     overflow-wrap: anywhere;
+    word-break: break-word;
+    max-width: 100%;
+    display: block;
 }
 .cursor {
     color: var(--primary-color);
@@ -385,7 +394,7 @@ img, svg, video {
     margin-bottom: 12px;
 }
 .about-card h4 { font-size: 1rem; margin-bottom: 8px; }
-.about-card p { color: var(--text-muted); font-size: 0.85rem; }
+.about-card p { color: #b8bcc4; font-size: 0.85rem; }
 
 
 .divisions-grid {
@@ -422,7 +431,7 @@ img, svg, video {
     margin-bottom: 18px;
 }
 .division-card h3 { font-size: 1.05rem; margin-bottom: 10px; }
-.division-card p { color: var(--text-muted); font-size: 0.86rem; }
+.division-card p { color: #b8bcc4; font-size: 0.86rem; }
 
 
 .rules-list {
@@ -459,7 +468,7 @@ img, svg, video {
     color: var(--text-light);
 }
 .rule-item p {
-    color: var(--text-muted);
+    color: #b8bcc4;
     font-size: 0.88rem;
 }
 
@@ -547,7 +556,7 @@ img, svg, video {
 
 .sanction-card h4 { font-size: 1rem; margin-bottom: 10px; }
 .sanction-card p {
-    color: var(--text-muted);
+    color: #b8bcc4;
     font-size: 0.85rem;
     margin-bottom: 16px;
 }
@@ -634,7 +643,7 @@ img, svg, video {
     padding: 0 22px 20px;
 }
 .faq-answer p {
-    color: var(--text-muted);
+    color: #b8bcc4;
     font-size: 0.88rem;
     line-height: 1.65;
 }
@@ -663,8 +672,8 @@ img, svg, video {
     text-shadow: 0 0 15px var(--primary-glow);
 }
 .cta-description {
-    color: var(--text-muted);
-    font-size: 0.95rem;
+    color: #c5c9d0;
+    font-size: 1rem;
     margin-bottom: 25px;
     max-width: 500px;
 }
@@ -737,8 +746,8 @@ img, svg, video {
     overflow-wrap: anywhere;
 }
 .cta-side-item span {
-    font-size: 0.72rem;
-    color: var(--text-muted);
+    font-size: 0.78rem;
+    color: #b8bcc4;
     font-family: var(--font-code);
     overflow-wrap: anywhere;
 }
@@ -753,6 +762,7 @@ img, svg, video {
     position: relative;
     z-index: 1;
 }
+.footer-links a { color: var(--text-muted); }
 .footer-sub {
     margin-top: 6px;
     font-family: var(--font-code);
@@ -826,6 +836,13 @@ img, svg, video {
 
 @media (max-width: 480px) {
     .container { padding: 0 6%; }
+    .hero-title {
+        font-size: 1.05rem;
+        min-height: 3.5em;
+        line-height: 1.35;
+        letter-spacing: -0.3px;
+    }
+    .cursor { font-size: 0.95rem; }
     .brand-name { 
         font-size: 1.15rem; 
         line-height: 1.2;
