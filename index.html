@@ -100,10 +100,10 @@
             <li><a href="#inicio" class="active">Inicio</a></li>
             <li><a href="#nosotros">Nosotros</a></li>
             <li><a href="#divisiones">Divisiones</a></li>
+            <li><a href="#ranking-torneos">Ranking</a></li>
             <li><a href="#normas">Normas</a></li>
             <li><a href="#sanciones">Sanciones</a></li>
             <li><a href="#faq">FAQ</a></li>
-            <li><a href="#unete" class="nav-cta">Unirme</a></li>
         </ul>
     </nav>
 
@@ -240,12 +240,37 @@
                         <i class="fa-solid fa-trophy division-icon"></i>
                         <h3>Algoritmos & Competitive</h3>
                         <p>Estructuras de datos, retos técnicos y programación competitiva.</p>
+                        <a href="#ranking-torneos" style="color: var(--primary-color); font-weight: 600; font-size: 0.85rem; margin-top: 12px; display: inline-block;">Ver ranking de torneos →</a>
                     </article>
                 </div>
                 <p class="section-intro" style="margin-top: 24px; max-width: 100%;">Estas 8 divisiones técnicas son hermanas de las 12 divisiones Gamer de SerakDepMS Studios (Serakdep-MS-Clan-Official), ambas gestionadas bajo el ecosistema SerakDepMS.</p>
             </div>
         </section>
 
+        <section id="ranking-torneos" class="section tournament-ranking-section">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-subtitle"><i class="fa-solid fa-trophy"></i> Algoritmos &amp; Competitive</p>
+                    <h2 class="section-title">Mejores programadores</h2>
+                    <p class="section-intro">Posiciones según el número de torneos ganados.</p>
+                </div>
+                <div id="simple-ranking-status" class="simple-ranking-status" role="status" aria-live="polite">
+                    Cargando ranking...
+                </div>
+                <div class="simple-ranking-scroll" id="simple-ranking-table-wrap" hidden>
+                    <table class="simple-ranking-table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Puesto</th>
+                                <th scope="col">Programador</th>
+                                <th scope="col">Torneos ganados</th>
+                            </tr>
+                        </thead>
+                        <tbody id="simple-ranking-rows"></tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
 
         <section id="normas" class="section">
             <div class="container">
@@ -445,70 +470,53 @@
         </section>
 
 
-        <section id="unete" class="section cta-section">
-            <div class="container">
-                <div class="cta-wrapper">
-                    <div class="cta-content">
-                        <p class="section-subtitle"><i class="fa-brands fa-whatsapp"></i> Únete</p>
-                        <h2 class="cta-title">¿Listo para unirte<br><span class="neon-text">a la comunidad?</span></h2>
-                        <p class="cta-description">
-                            Entra al grupo de recepción de SerakDepMS Studios y comienza a formar parte
-                            del ecosistema de programación de SerakDepMS, la empresa matriz.
-                        </p>
-
-                        <div class="cta-focus">
-                            <span><i class="fa-solid fa-check"></i> Acceso gratuito</span>
-                            <span><i class="fa-solid fa-check"></i> Comunidad activa</span>
-                            <span><i class="fa-solid fa-check"></i> Aprendizaje en conjunto</span>
-                        </div>
-
-                        <a href="https://chat.whatsapp.com/GGkcLzydBXZ0IjMI6f731G" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-large">
-                            <i class="fa-brands fa-whatsapp"></i> Entrar al grupo de recepción
-                        </a>
-
-                        <div class="cta-social">
-                            <a href="https://github.com/SerakDepMS" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
-                            <a href="https://www.linkedin.com/in/SerakDepMS" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-                            <a href="https://x.com/SerakDepMS" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
-                            <a href="https://www.instagram.com/serakdepms_oficial" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="cta-side">
-                        <div class="cta-side-item">
-                            <i class="fa-solid fa-globe"></i>
-                            <div>
-                                <strong>SerakDepMS Studios</strong>
-                                <span>Ecosistema principal</span>
-                            </div>
-                        </div>
-                        <div class="cta-side-item">
-                            <i class="fa-solid fa-code"></i>
-                            <div>
-                                <strong>Programming Communities</strong>
-                                <span>División activa</span>
-                            </div>
-                        </div>
-                        <div class="cta-side-item">
-                            <i class="fa-solid fa-users"></i>
-                            <div>
-                                <strong>Multi-nivel</strong>
-                                <span>Junior · Dev · Senior</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
     </main>
 
     <footer class="site-footer">
         <div class="container">
-            <p>SerakDepMS Studios</p>
-            <p class="footer-sub">Una división de SerakDepMS · Serak Digital Mastery &amp; Solutions</p>
-            <p>&copy; 2026 SerakDepMS Studios. All rights reserved.</p>
-            <p class="footer-links"><a href="https://serakdepms.github.io/SerakDepMS-Studios/" target="_blank" rel="noopener noreferrer">Portafolio</a> · <a href="https://serakdepms.github.io/Serakdep-MS-Clan-Official/" target="_blank" rel="noopener noreferrer">Comunidad Gamer</a> · <a href="https://github.com/SerakDepMS" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+            <div class="footer-grid">
+                <div class="footer-column footer-about">
+                    <h2>SerakDepMS Studios</h2>
+                    <p>Comunidad Devs oficial de SerakDepMS Studios. Un espacio para aprender, colaborar y construir en comunidad.</p>
+                    <p class="footer-sub">Una división de SerakDepMS · Serak Digital Mastery &amp; Solutions</p>
+                    <div class="cta-social footer-social" aria-label="Redes sociales">
+                        <a href="https://github.com/SerakDepMS" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+                        <a href="https://www.linkedin.com/in/SerakDepMS" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
+                        <a href="https://x.com/SerakDepMS" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fa-brands fa-twitter" aria-hidden="true"></i></a>
+                        <a href="https://www.instagram.com/serakdepms_oficial" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h2>Enlaces Rápidos</h2>
+                    <ul>
+                        <li><a href="#inicio"><i class="fa-solid fa-chevron-right" aria-hidden="true"></i> Inicio</a></li>
+                        <li><a href="#divisiones"><i class="fa-solid fa-chevron-right" aria-hidden="true"></i> Divisiones</a></li>
+                        <li><a href="#ranking-torneos"><i class="fa-solid fa-chevron-right" aria-hidden="true"></i> Ranking de torneos</a></li>
+                        <li><a href="#normas"><i class="fa-solid fa-chevron-right" aria-hidden="true"></i> Normas</a></li>
+                        <li><a href="#faq"><i class="fa-solid fa-chevron-right" aria-hidden="true"></i> FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h2>Contacto</h2>
+                    <ul>
+                        <li><a href="mailto:serakdepmsofficial7@gmail.com"><i class="fa-solid fa-envelope" aria-hidden="true"></i> serakdepmsofficial7@gmail.com</a></li>
+                        <li><a href="https://chat.whatsapp.com/GGkcLzydBXZ0IjMI6f731G" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i> WhatsApp de la comunidad</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h2>Información Legal</h2>
+                    <ul>
+                        <li><a href="pages/legal/privacidad.html"><i class="fa-solid fa-user-shield" aria-hidden="true"></i> Política de Privacidad</a></li>
+                        <li><a href="pages/legal/terminos-servicio.html"><i class="fa-solid fa-file-contract" aria-hidden="true"></i> Términos de Servicio</a></li>
+                        <li><a href="pages/legal/cookies.html"><i class="fa-solid fa-cookie-bite" aria-hidden="true"></i> Política de Cookies</a></li>
+                        <li><a href="pages/legal/terminos-torneos.html"><i class="fa-solid fa-trophy" aria-hidden="true"></i> Términos de Torneos</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 SerakDepMS Studios. All rights reserved.</p>
+                <p class="footer-links"><a href="https://serakdepms.github.io/SerakDepMS-Studios/" target="_blank" rel="noopener noreferrer">Portafolio</a> · <a href="https://serakdepms.github.io/Serakdep-MS-Clan-Official/" target="_blank" rel="noopener noreferrer">Comunidad Gamer</a> · <a href="https://github.com/SerakDepMS" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+            </div>
         </div>
     </footer>
 

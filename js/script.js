@@ -1,3 +1,6 @@
+
+const RANKING_NPOINT_ENDPOINT = "https://api.npoint.io/e2c585386a70aed45f48";
+
 document.addEventListener("DOMContentLoaded", () => {
 
 
@@ -41,6 +44,62 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
     typeLoop();
+
+    const rankingStatus = document.getElementById("simple-ranking-status");
+    const rankingTableWrap = document.getElementById("simple-ranking-table-wrap");
+    const rankingRows = document.getElementById("simple-ranking-rows");
+
+    async function loadSimpleRanking() {
+        rankingStatus.hidden = false;
+        rankingStatus.classList.remove("error");
+        rankingStatus.textContent = "Cargando ranking...";
+        rankingTableWrap.hidden = true;
+
+        try {
+            const response = await fetch(RANKING_NPOINT_ENDPOINT, { cache: "no-store" });
+            if (!response.ok) throw new Error(`La solicitud respondió con el estado ${response.status}.`);
+
+            const data = await response.json();
+            if (!data || !Array.isArray(data.ranking)) {
+                throw new Error("La respuesta no contiene una lista de posiciones válida.");
+            }
+
+            const ranking = data.ranking
+                .map((player) => ({
+                    name: String(player.nombre || "").trim(),
+                    wins: Number(player.torneosGanados)
+                }))
+                .filter((player) => player.name && Number.isFinite(player.wins))
+                .sort((a, b) => b.wins - a.wins);
+
+            rankingRows.replaceChildren();
+            ranking.forEach((player, index) => {
+                const row = document.createElement("tr");
+                [index + 1, player.name, player.wins].forEach((value) => {
+                    const cell = document.createElement("td");
+                    cell.textContent = String(value);
+                    row.append(cell);
+                });
+                rankingRows.append(row);
+            });
+
+            rankingStatus.hidden = ranking.length > 0;
+            if (ranking.length === 0) rankingStatus.textContent = "Aún no hay programadores en el ranking.";
+            rankingTableWrap.hidden = ranking.length === 0;
+        } catch (error) {
+            console.error("No se pudo cargar el ranking de programadores:", error);
+            rankingStatus.classList.add("error");
+            rankingStatus.textContent = "No pudimos cargar el ranking. Inténtalo de nuevo.";
+            const retryButton = document.createElement("button");
+            retryButton.className = "simple-ranking-retry";
+            retryButton.type = "button";
+            retryButton.textContent = "Reintentar";
+            retryButton.addEventListener("click", loadSimpleRanking);
+            rankingStatus.append(retryButton);
+        }
+    }
+
+    if (rankingStatus && rankingTableWrap && rankingRows) loadSimpleRanking();
 
 
     const menuToggle = document.getElementById("menu-toggle");
