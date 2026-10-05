@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://serakdepms.github.io/Serakdep-MS-Devs-Official/sitemap.xml
