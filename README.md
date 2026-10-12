@@ -18,7 +18,7 @@ Operamos exclusivamente a través de **WhatsApp**, con un grupo general de recep
 - **Comunidad Gamer:** [Serakdep-MS-Clan-Official](https://serakdepms.github.io/Serakdep-MS-Clan-Official/)
 - **LinkedIn:** [linkedin.com/in/SerakDepMS](https://www.linkedin.com/in/SerakDepMS)
 - **X / Twitter:** [x.com/SerakDepMS](https://x.com/SerakDepMS)
-- **Instagram:** [instagram.com/serakdepms_oficial](https://www.instagram.com/serakdepms_oficial)
+- **Instagram:** [instagram.com/serakdepms](https://www.instagram.com/serakdepms)
 
 ---
 
