@@ -4,7 +4,7 @@
   <img src="assets/images/logo.jpg" alt="SerakDepMS Studios" width="120" style="border-radius: 50%;">
 </p>
 
-**Serakdep-MS-Devs-Official** es una comunidad Devs oficial de **SerakDepMS Studios**, una división de **SerakDepMS**. Forma parte del pilar **Programming Communities** del ecosistema SerakDepMS y se enfoca en aprendizaje, colaboración y crecimiento tecnológico.
+**Serakdep-MS-Devs-Official** es la Comunidad Devs Oficial, propiedad de **SerakDepMS Studios**. El nombre comercial de la empresa es **SerakDepMS Studios**, cuyo significado oficial es **Serak Digital Mastery Studios Solutions** (siglas: **SDMSS**; abreviatura visual: **SDMS**). La comunidad forma parte del pilar **Programming Communities** y se enfoca en aprendizaje, colaboración y crecimiento tecnológico.
 
 Operamos exclusivamente a través de **WhatsApp**, con un grupo general de recepción y divisiones especializadas por área técnica. Cada miembro puede participar en todas las divisiones que desee.
 
@@ -18,13 +18,13 @@ Operamos exclusivamente a través de **WhatsApp**, con un grupo general de recep
 - **Comunidad Gamer:** [Serakdep-MS-Clan-Official](https://serakdepms.github.io/Serakdep-MS-Clan-Official/)
 - **LinkedIn:** [linkedin.com/in/SerakDepMS](https://www.linkedin.com/in/SerakDepMS)
 - **X / Twitter:** [x.com/SerakDepMS](https://x.com/SerakDepMS)
-- **Instagram:** [instagram.com/serakdepms](https://www.instagram.com/serakdepms)
+- **Instagram:** [instagram.com/serakdepms](https://www.instagram.com/serakdepmsstudios)
 
 ---
 
 ## Sobre Nosotros
 
-**Serakdep-MS-Devs-Official** nació con el propósito de construir un espacio donde desarrolladores de todos los niveles puedan crecer juntos, compartir conocimiento y colaborar en proyectos reales dentro del ecosistema SerakDepMS.
+**Serakdep-MS-Devs-Official** nació con el propósito de construir un espacio donde desarrolladores de todos los niveles puedan crecer juntos, compartir conocimiento y colaborar en proyectos reales dentro del ecosistema SerakDepMS Studios.
 
 - **Misión:** Crear un ecosistema de programación activo, colaborativo y con alto impacto tecnológico.
 - **Visión:** Formar desarrolladores competentes, éticos y con impacto real en el mundo digital.
@@ -45,7 +45,7 @@ Cada división está dedicada a un área específica del desarrollo. Puedes part
 - **AI & Machine Learning** — Modelos predictivos, NLP, visión por computadora, redes neuronales.
 - **Algoritmos & Competitive** — Estructuras de datos, retos técnicos, programación competitiva.
 
-Estas 8 divisiones técnicas son hermanas de las 12 divisiones Gamer de SerakDepMS Studios (Serakdep-MS-Clan-Official), ambas gestionadas bajo el ecosistema SerakDepMS.
+Estas 8 divisiones técnicas son hermanas de las 12 divisiones Gamer de SerakDepMS Studios ([Serakdep-MS-Clan-Official](https://serakdepms.github.io/Serakdep-MS-Clan-Official/)), ambas gestionadas bajo el ecosistema SerakDepMS Studios.
 
 ---
 
@@ -97,8 +97,8 @@ Nuestra comunidad vive en WhatsApp. Contamos con un grupo de recepción general 
 **¿Puedo proponer eventos o proyectos?**  
 Sí. Valoramos las iniciativas de nuestros miembros. Puedes contactar a un administrador para presentar tu propuesta.
 
-**¿SerakDepMS Studios pertenece a alguna empresa?**  
-Sí. **SerakDepMS Studios** es una división de **SerakDepMS**, la empresa matriz del ecosistema.
+**¿Quién es propietaria del proyecto Devs?**
+Sí. **SerakDepMS Studios** es la empresa propietaria del proyecto Devs y del ecosistema asociado.
 
 ---
 
@@ -117,7 +117,7 @@ Entra al grupo de recepción de **Serakdep-MS-Devs-Official** y comienza a forma
 
 ## Copyright and Usage
 
-The source code, written content, visual design, layouts, branding, original graphics, animations, and project data in this repository are proprietary to **SerakDepMS / Serak Digital Mastery & Solutions**. All rights are reserved.
+The source code, written content, visual design, layouts, branding, original graphics, animations, and project data in this repository are proprietary to **SerakDepMS Studios (Serak Digital Mastery Studios Solutions)**. All rights are reserved.
 
 No copying, modification, redistribution, mirroring, scraping, commercial use, or derivative work is permitted without prior written authorization. Viewing the official portfolio does not grant reuse rights. See [LICENSE](LICENSE) for the complete terms.
 
@@ -125,7 +125,7 @@ Third-party libraries, fonts, icons, and external assets remain subject to their
 
 ---
 
-© 2026 SerakDepMS Studios. All rights reserved.
+© 2026 SerakDepMS Studios · Serak Digital Mastery Studios Solutions
 
 <p align="center">
   <i>“Deploying secure ecosystems and empowering communities, one tactical commit at a time.”</i>

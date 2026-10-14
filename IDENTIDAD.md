@@ -1,15 +1,18 @@
 # SerakDepMS Studios — Identidad oficial
 
-## 1. SerakDepMS vs SerakDepMS Studios
+## 1. Nombre comercial y propiedad
 
-**SerakDepMS** es la empresa matriz. Es la marca corporativa que agrupa desarrollo web, arquitectura, ciberseguridad, servicios profesionales y ecosistemas digitales. Su identidad oficial corresponde a **Serak Digital Mastery & Solutions**.
-
-**SerakDepMS Studios** es la denominación oficial de las comunidades Gamer y Devs dentro del ecosistema SerakDepMS. Es la marca visible para la comunidad técnica y gamer, manteniendo la conexión directa con la empresa matriz.
+- **Nombre comercial:** SerakDepMS Studios
+- **Significado oficial:** Serak Digital Mastery Studios Solutions
+- **Siglas:** SDMSS
+- **Abreviatura visual:** SDMS
+- **Empresa propietaria:** SerakDepMS Studios
+- **Propiedad del proyecto:** Serakdep-MS-Devs-Official pertenece a SerakDepMS Studios.
 
 ## 2. Los tres pilares del ecosistema
 
 1. 🌐 **Web Development & Technology**
-   - Bajo SerakDepMS
+   - Bajo SerakDepMS Studios
    - Desarrollo web, arquitectura, infraestructura y soluciones digitales
 
 2. 🎮 **Game Development & Gamer Communities**
@@ -62,6 +65,4 @@
 
 ## 7. Copyright
 
-© 2026 SerakDepMS Studios. All rights reserved.
-
-SerakDepMS Studios es una división de SerakDepMS · Serak Digital Mastery & Solutions.
+© 2026 SerakDepMS Studios · Serak Digital Mastery Studios Solutions
